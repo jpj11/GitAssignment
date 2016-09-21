@@ -1,0 +1,20 @@
+(a) Three commits have been made. One for editing the read me file, one for
+	appending the output of git status to docs/status.txt, and one for the
+	creation of this file.
+
+(b) .gitignore was modified last on September 15, 2016 at 10:29
+
+(c) Only the file Sword.java in the src folder has been modified. All other
+	files in the src folders were added, but not modified.
+
+(d) git log shows all the commits that have been made to the repository in the
+	order that they were made. git status show the status of the repository at
+	that time. For example, it shows if there are changes to files in the
+	repository that haven't been commited, or commits to the repository that
+	haven't been pushed.
+
+(e) git log RoleGame.java (Assuming RoleGame.java is in the current directory)
+
+(f) git log --grep=file
+
+(g) git log --author=Alice --after=1-9-2016 --before=16-9-2016
