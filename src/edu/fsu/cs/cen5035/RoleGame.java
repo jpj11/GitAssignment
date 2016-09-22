@@ -31,5 +31,13 @@ public class RoleGame {
         System.out.println("Axe was able to do " + axe.hit(armor) + " of damage due to an armor with "+armor+ " points.");
         armor = 0;
         System.out.println("Axe was able to do " + axe.hit(armor) + " of damage due to an armor with "+armor+ " points.");
+        
+        // MagicStaff against armor = 20, then no armor
+        Weapon magicstaff = WeaponFactory.getWeapon("magicstaff");
+        System.out.println("MagicStaff has " + magicstaff.hit() + " of damage.");
+        armor = 20;
+        System.out.println("MagicStaff was able to do " + magicstaff.hit(armor) + " of damage due to an armor with "+armor+ " points.");
+        armor = 0;
+        System.out.println("MagicStaff was able to do " + magicstaff.hit(armor) + " of damage due to an armor with "+armor+ " points.");
     }
 }
