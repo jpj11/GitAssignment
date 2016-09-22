@@ -17,7 +17,11 @@ public class RoleGame {
         int armor = 20;
         System.out.println("Swords was able to do " + sword.hit(armor) + " of damage due to an armor with "+armor+ " points.");
         
-        //TODO: Add the remainig weapons here
-
+        // Arrow against armor = 20, then no armor
+        Weapon arrow = WeaponFactory.getWeapon("arrow");
+        System.out.println("Arrow has " + arrow.hit() + " of damage.");
+        System.out.println("Arrow was able to do " + arrow.hit(armor) + " of damage due to an armor with "+armor+ " points.");
+        armor = 0;
+        System.out.println("Arrow was able to do " + arrow.hit(armor) + " of damage due to an armor with "+armor+ " points.");
     }
 }
